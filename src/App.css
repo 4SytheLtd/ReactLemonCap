@@ -1,0 +1,43 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background: #ffffff;
+    color: #333333;
+   
+}
+
+/* GLOBAL LAYOUT */
+section {
+    padding: 4rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* BUTTON BASE */
+button {
+    cursor: pointer;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+html {
+    scroll-behavior: smooth;
+}

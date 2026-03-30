@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 21vw;
+    margin-right: 21vw;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #f4ce14;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+
+.text {
+    margin-top: 1.5rem;
+    max-width: 380px;
+    line-height: 1.5;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+    .images img {
+        width: 260px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+        .images img:nth-child(2) {
+            margin-left: 40px;
+        }

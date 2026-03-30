@@ -1,0 +1,36 @@
+.footer {
+    background: #333333;
+    color: white;
+    padding: 4rem 2rem;
+    
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+    .columns h4 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .columns ul {
+        list-style: none;
+        line-height: 1.8;
+        font-size: 1rem;
+    }
+.footer > div {
+    margin-left: 21vw;
+    margin-right: 21vw;
+}
+fakediv{
+    color:antiquewhite;
+}
